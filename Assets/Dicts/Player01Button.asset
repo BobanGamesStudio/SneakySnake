@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1814f224232cc47a2d68309f358df5, type: 3}
+  m_Name: Player01Button
+  m_EditorClassIdentifier: 
+  keys:
+  - Head
+  - Neck
+  - Mid
+  - Tail
+  values:
+  - {fileID: 1047932858833031139, guid: af0716774ff90c542a222ce7472dac61, type: 3}
+  - {fileID: 1111824804203026408, guid: 183676836bfda4f41813043a16406f5a, type: 3}
+  - {fileID: 2430311661726012750, guid: 30878acce1a325e4f8c049b74de2905a, type: 3}
+  - {fileID: 1191441155618821917, guid: fbb4201549de2104a823f1db74f82ce3, type: 3}

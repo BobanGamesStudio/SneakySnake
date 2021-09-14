@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2823920080447592038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2823920080447592037}
+  - component: {fileID: 176923071666424908}
+  m_Layer: 0
+  m_Name: AudioManagerGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2823920080447592037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2823920080447592038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960.00006, y: 398, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &176923071666424908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2823920080447592038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec1f632b262dc941ae09071dfd49d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixer: {fileID: -4557701776806636232, guid: 0c5cf46600533004db2f20db50973d0b,
+    type: 2}
+  soundMixer: {fileID: 2199228006935604106, guid: 0c5cf46600533004db2f20db50973d0b,
+    type: 2}
+  gameSounds:
+  - name: AppleShowUp01
+    clip: {fileID: 8300000, guid: 0b87126e2f14be240a811e486e137ebf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp02
+    clip: {fileID: 8300000, guid: 0084a24b944942a44b3709fa8a8a0760, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp03
+    clip: {fileID: 8300000, guid: e1601c468aec52641a604acea44c07a7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp04
+    clip: {fileID: 8300000, guid: fb6f61b56d29290458690dbe23f62339, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp01
+    clip: {fileID: 8300000, guid: d2c742033ca46944997b3b0cd988ccfd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp02
+    clip: {fileID: 8300000, guid: 4d7783d8a53851745b316746dd730cb5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp03
+    clip: {fileID: 8300000, guid: 65a898518bda78d4f869d4fd2cf2300d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple01
+    clip: {fileID: 8300000, guid: e511b405c58ed444fb0f41aa3752c35a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple02
+    clip: {fileID: 8300000, guid: 1b787e2ae73b3ee45b5dadc4ad67ecc1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple03
+    clip: {fileID: 8300000, guid: 374042dd32d804a4991f3a626a983b4f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple04
+    clip: {fileID: 8300000, guid: 54d7a3ae36f0cc943b09fd78086e8fc0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple05
+    clip: {fileID: 8300000, guid: 62070ac225348e84eb232a4cf0f72821, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple06
+    clip: {fileID: 8300000, guid: f00e7e0c284410a468137fa6b544743b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatApple07
+    clip: {fileID: 8300000, guid: ceff1c5972b8cc74a92e5d6768b52e0c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EatPill01
+    clip: {fileID: 8300000, guid: 5ff4b718c64900c4f8bb6ba4060b8767, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonPressed
+    clip: {fileID: 8300000, guid: 7c46bf992db8cb34fba288c07b4fa99f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SnakeCrash01
+    clip: {fileID: 8300000, guid: b056ae327fd8d5f4692fa9258809cd2a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WallCrash01
+    clip: {fileID: 8300000, guid: e721210973ca2ac419c9996366d8d3ab, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameBackgroundSound01
+    clip: {fileID: 8300000, guid: b8c1b879d501cbc42afa941eed65217f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameBackgroundSound02
+    clip: {fileID: 8300000, guid: 9a65e884321e4b14987438a4925e8a0a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameBackgroundSound03
+    clip: {fileID: 8300000, guid: 9f588c7a93db4d04486aa053bd5c3426, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameBackgroundSound04
+    clip: {fileID: 8300000, guid: 9c950b48d3fa9c6418b789f2c09763ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameBackgroundSound05
+    clip: {fileID: 8300000, guid: 9524b57130b23ef44badb8417d78ec42, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  mainMenuSounds:
+  - name: MainMenuBackgroundSound
+    clip: {fileID: 8300000, guid: 6ba92c8a1a47c494b873cd9bf99a46f3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp01
+    clip: {fileID: 8300000, guid: 0b87126e2f14be240a811e486e137ebf, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp02
+    clip: {fileID: 8300000, guid: 0084a24b944942a44b3709fa8a8a0760, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp02
+    clip: {fileID: 8300000, guid: e1601c468aec52641a604acea44c07a7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AppleShowUp04
+    clip: {fileID: 8300000, guid: fb6f61b56d29290458690dbe23f62339, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp01
+    clip: {fileID: 8300000, guid: d2c742033ca46944997b3b0cd988ccfd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp02
+    clip: {fileID: 8300000, guid: 4d7783d8a53851745b316746dd730cb5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PillShowUp03
+    clip: {fileID: 8300000, guid: 65a898518bda78d4f869d4fd2cf2300d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonPressed
+    clip: {fileID: 8300000, guid: 7c46bf992db8cb34fba288c07b4fa99f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  updateMade: 0

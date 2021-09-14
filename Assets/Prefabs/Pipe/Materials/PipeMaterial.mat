@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PipeMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: a866566e7cc9cac45a44b9ff8acd5cf7,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: e3d16a972ff4e8a44a050775c36ea224, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission2:
+        m_Texture: {fileID: 2800000, guid: 255302d106a6edd46a86cbff5b16351a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d4b5fb9f1a404f848a5b864f2122140c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - Color_134C0863: {r: 0, g: 0.03137255, b: 1.5058824, a: 0.007843138}
+    - Color_30F9A4F0: {r: 0, g: 1.0745099, b: 1.4980392, a: 0}

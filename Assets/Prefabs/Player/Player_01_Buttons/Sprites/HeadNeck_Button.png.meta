@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: a4052eb9ba6bdcf4f8eff9e94fab9879
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8967550592240372985
+    second: HeadNeck_0
+  - first:
+      213: -1414709858755518771
+    second: HeadNeck_1
+  - first:
+      213: -956571066593554752
+    second: HeadNeck_2
+  - first:
+      213: -2015105700742289831
+    second: HeadNeck_3
+  - first:
+      213: 7394635964115676500
+    second: HeadNeck_4
+  - first:
+      213: -7114909794584642153
+    second: HeadNeck_5
+  - first:
+      213: -9190541110181919677
+    second: HeadNeck_6
+  - first:
+      213: -322427111049535807
+    second: HeadNeck_7
+  - first:
+      213: -1476312477492695659
+    second: HeadNeck_8
+  - first:
+      213: -7597719378463122201
+    second: HeadNeck_9
+  - first:
+      213: 8990929184846873904
+    second: HeadNeck_10
+  - first:
+      213: 1250396327760853209
+    second: HeadNeck_11
+  - first:
+      213: 2124781488266258248
+    second: HeadNeck_12
+  - first:
+      213: 1058121987079194431
+    second: HeadNeck_13
+  - first:
+      213: 8434382545960083358
+    second: HeadNeck_14
+  - first:
+      213: -5049427922652555470
+    second: HeadNeck_15
+  - first:
+      213: -4403733698880302490
+    second: HeadNeck_16
+  - first:
+      213: 7196450835533845026
+    second: HeadNeck_17
+  - first:
+      213: -1666250816530467662
+    second: HeadNeck_18
+  - first:
+      213: 7808833638705417226
+    second: HeadNeck_19
+  - first:
+      213: 1941192609476568768
+    second: HeadNeck_0
+  - first:
+      213: 4700303241906576017
+    second: HeadNeck_1
+  - first:
+      213: 6412618802378239672
+    second: HeadNeck_2
+  - first:
+      213: 6199991708715052770
+    second: HeadNeck_3
+  - first:
+      213: -423685717107861166
+    second: HeadNeck_4
+  - first:
+      213: 1517480934385766606
+    second: HeadNeck_5
+  - first:
+      213: -3800215952373395203
+    second: HeadNeck_6
+  - first:
+      213: 4154019284422361597
+    second: HeadNeck_7
+  - first:
+      213: 7606655615274084912
+    second: HeadNeck_8
+  - first:
+      213: 2440658319802555266
+    second: HeadNeck_9
+  - first:
+      213: 8374546756263172018
+    second: HeadNeck_10
+  - first:
+      213: 399079820386312507
+    second: HeadNeck_11
+  - first:
+      213: 7376664912471496024
+    second: HeadNeck_12
+  - first:
+      213: -3570126306007870698
+    second: HeadNeck_13
+  - first:
+      213: 7941573518781301607
+    second: HeadNeck_14
+  - first:
+      213: -5010562245143137506
+    second: HeadNeck_15
+  - first:
+      213: -1769705219501978137
+    second: HeadNeck_16
+  - first:
+      213: -4222688762473451666
+    second: HeadNeck_17
+  - first:
+      213: 7076145427958120187
+    second: HeadNeck_18
+  - first:
+      213: -5875327984953330589
+    second: HeadNeck_19
+  - first:
+      213: 7314461720892639587
+    second: HeadNeck_Button_0
+  - first:
+      213: -4164243540742511719
+    second: HeadNeck_Button_1
+  - first:
+      213: 8597156162060891452
+    second: HeadNeck_Button_2
+  - first:
+      213: -8419139888456017680
+    second: HeadNeck_Button_3
+  - first:
+      213: -1772592955378130008
+    second: HeadNeck_Button_4
+  - first:
+      213: 4075276161622274054
+    second: HeadNeck_Button_5
+  - first:
+      213: 9181699270052303464
+    second: HeadNeck_Button_6
+  - first:
+      213: 6223723169870998378
+    second: HeadNeck_Button_7
+  - first:
+      213: 7857779756790480103
+    second: HeadNeck_Button_8
+  - first:
+      213: 7704765444219518642
+    second: HeadNeck_Button_9
+  - first:
+      213: -5507072920914662087
+    second: HeadNeck_Button_10
+  - first:
+      213: -7575898263928305222
+    second: HeadNeck_Button_11
+  - first:
+      213: -6098629610033880565
+    second: HeadNeck_Button_12
+  - first:
+      213: 2622643707038980073
+    second: HeadNeck_Button_13
+  - first:
+      213: 5963607075714165373
+    second: HeadNeck_Button_14
+  - first:
+      213: -7252598918522589047
+    second: HeadNeck_Button_15
+  - first:
+      213: -4145588834757052396
+    second: HeadNeck_Button_16
+  - first:
+      213: 7688527342415988765
+    second: HeadNeck_Button_17
+  - first:
+      213: -3239780055763367394
+    second: HeadNeck_Button_18
+  - first:
+      213: -689846337630118264
+    second: HeadNeck_Button_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeadNeck_Button_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3698ff47e20328560800000000000000
+      internalID: 7314461720892639587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993e3d31092a536c0800000000000000
+      internalID: -4164243540742511719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35333ecafb3f4770800000000000000
+      internalID: 8597156162060891452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8d142c0e4392b80800000000000000
+      internalID: -8419139888456017680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3a353491c7667e0800000000000000
+      internalID: -1772592955378130008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600fc17c31a4e8830800000000000000
+      internalID: 4075276161622274054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8625ee1e6d2fb6f70800000000000000
+      internalID: 9181699270052303464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b67809f3b1f5650800000000000000
+      internalID: 6223723169870998378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec70c67e017c0d60800000000000000
+      internalID: 7857779756790480103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beb8649953dcea60800000000000000
+      internalID: 7704765444219518642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d65bc2b52f293b0800000000000000
+      internalID: -5507072920914662087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab90e04faa00dd690800000000000000
+      internalID: -7575898263928305222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02604d7ea05d5ba0800000000000000
+      internalID: -6098629610033880565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7d8726e80856420800000000000000
+      internalID: 2622643707038980073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ae2ffe90df2c250800000000000000
+      internalID: 5963607075714165373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803413a5b7995b90800000000000000
+      internalID: -7252598918522589047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418fa774be8e776c0800000000000000
+      internalID: -4145588834757052396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d184592e1e223ba60800000000000000
+      internalID: 7688527342415988765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a44d1543df903d0800000000000000
+      internalID: -3239780055763367394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeck_Button_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ed3ff296c2d66f0800000000000000
+      internalID: -689846337630118264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 22b6cb80509835d458e049ace3b19b3f, type: 3}
+      name: _Emission
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

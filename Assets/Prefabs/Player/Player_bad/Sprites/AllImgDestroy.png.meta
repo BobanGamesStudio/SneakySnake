@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: e851fe06f95d0674bb02d8381ed63912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8233052835646753663
+    second: Head01
+  - first:
+      213: -736435174547428407
+    second: Head02
+  - first:
+      213: -1852853964418998705
+    second: Head03
+  - first:
+      213: 6967230467604217538
+    second: Head04
+  - first:
+      213: -6242094182183001447
+    second: Neck01
+  - first:
+      213: 5103589082351811048
+    second: Neck02
+  - first:
+      213: 4320825314037397596
+    second: Neck03
+  - first:
+      213: -6989324845206634546
+    second: Neck04
+  - first:
+      213: -8957456450583319282
+    second: Head05
+  - first:
+      213: -7345984720273838060
+    second: Head06
+  - first:
+      213: -6938304212635817001
+    second: Head07
+  - first:
+      213: -5173714369053612476
+    second: Head08
+  - first:
+      213: -6683374484917960858
+    second: Neck05
+  - first:
+      213: 5774619054643232261
+    second: Neck06
+  - first:
+      213: -3299955420518320145
+    second: Neck07
+  - first:
+      213: -8693644018964826140
+    second: Neck08
+  - first:
+      213: -7447273985882147869
+    second: Head09
+  - first:
+      213: 3694217220650904859
+    second: Head10
+  - first:
+      213: 1554082005020097266
+    second: Neck09
+  - first:
+      213: -4103433356946325981
+    second: Neck10
+  - first:
+      213: -3472290469509754449
+    second: AllImgDestroy_20
+  - first:
+      213: -5558883082879130793
+    second: AllImgDestroy_21
+  - first:
+      213: 9142649023111996783
+    second: Head01
+  - first:
+      213: -564233353432083378
+    second: Head02
+  - first:
+      213: -342163222984726168
+    second: Head03
+  - first:
+      213: 6742688970154885524
+    second: Head04
+  - first:
+      213: -2231448340086904041
+    second: Neck01
+  - first:
+      213: 1016416416767210287
+    second: Neck02
+  - first:
+      213: 6407458272678871763
+    second: Neck03
+  - first:
+      213: -4249532848149856938
+    second: Neck04
+  - first:
+      213: 7793628794590542349
+    second: Head05
+  - first:
+      213: -9000025872183862563
+    second: Head06
+  - first:
+      213: -6386164775575438658
+    second: Head07
+  - first:
+      213: -4784292167209025965
+    second: Head08
+  - first:
+      213: 8722950306596042741
+    second: Neck05
+  - first:
+      213: 4749578473189915459
+    second: Neck06
+  - first:
+      213: -859794650161198336
+    second: Neck07
+  - first:
+      213: -2457020517584760537
+    second: Neck08
+  - first:
+      213: 7689194557246459795
+    second: Head09
+  - first:
+      213: 4774762084099347046
+    second: Head10
+  - first:
+      213: -266737348532603311
+    second: Neck09
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65a9a0c8d631ee70800000000000000
+      internalID: 9142649023111996783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 155
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44d04621c07b28f0800000000000000
+      internalID: -564233353432083378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head03
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 155
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869eace8c54604bf0800000000000000
+      internalID: -342163222984726168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head04
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 155
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c601e4e7d29d50800000000000000
+      internalID: 6742688970154885524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2c72be8d4801e0800000000000000
+      internalID: -2231448340086904041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 124
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23f84988590b1e00800000000000000
+      internalID: 1016416416767210287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck03
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 124
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d28920d95ddbe850800000000000000
+      internalID: 6407458272678871763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck04
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 124
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d7cacb360a605c0800000000000000
+      internalID: -4249532848149856938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a33d4a818882c60800000000000000
+      internalID: 7793628794590542349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head06
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 93
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad727472c791380800000000000000
+      internalID: -9000025872183862563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head07
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebab6b2d8f8cf57a0800000000000000
+      internalID: -6386164775575438658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head08
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 93
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e72d74f97ca9db0800000000000000
+      internalID: -4784292167209025965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ba0276152e0970800000000000000
+      internalID: 8722950306596042741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck06
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb35ff474e9e140800000000000000
+      internalID: 4749578473189915459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck07
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 62
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4c5132556114f0800000000000000
+      internalID: -859794650161198336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck08
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 62
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721938b6bd8e6edd0800000000000000
+      internalID: -2457020517584760537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fca81f5b185ba60800000000000000
+      internalID: 7689194557246459795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662deb551dc534240800000000000000
+      internalID: 4774762084099347046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck09
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15672647bcb5c4cf0800000000000000
+      internalID: -266737348532603311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neck10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eb9bf4a1dad07c0800000000000000
+      internalID: -4103433356946325981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

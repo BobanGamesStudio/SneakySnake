@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: a3552ec367c17584f9ae8faf11dae8b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4909975398314610010
+    second: HeadNeckDestroy_0
+  - first:
+      213: -30752627603736908
+    second: HeadNeckDestroy_1
+  - first:
+      213: 7719726782505610377
+    second: HeadNeckDestroy_2
+  - first:
+      213: -2370888298373147288
+    second: HeadNeckDestroy_3
+  - first:
+      213: 3199456142528833716
+    second: HeadNeckDestroy_4
+  - first:
+      213: -1524978168771250243
+    second: HeadNeckDestroy_5
+  - first:
+      213: -2646168351411724048
+    second: HeadNeckDestroy_6
+  - first:
+      213: -4570644019479722193
+    second: HeadNeckDestroy_7
+  - first:
+      213: 3189246341601776480
+    second: HeadNeckDestroy_8
+  - first:
+      213: -4971011395447865763
+    second: HeadNeckDestroy_9
+  - first:
+      213: 7023281325906085561
+    second: HeadNeckDestroy_10
+  - first:
+      213: -1822304164251593556
+    second: HeadNeckDestroy_11
+  - first:
+      213: 7842772229612432572
+    second: HeadNeckDestroy_12
+  - first:
+      213: 5298475989150482630
+    second: HeadNeckDestroy_13
+  - first:
+      213: -6864730232852343190
+    second: HeadNeckDestroy_14
+  - first:
+      213: 1961116446121692479
+    second: HeadNeckDestroy_15
+  - first:
+      213: -7095648300993721362
+    second: HeadNeckDestroy_16
+  - first:
+      213: -8338250680108345108
+    second: HeadNeckDestroy_17
+  - first:
+      213: 8390256445619661506
+    second: HeadNeckDestroy_18
+  - first:
+      213: -5876935149692387481
+    second: HeadNeckDestroy_19
+  - first:
+      213: 7243508059454220050
+    second: HeadNeckDestroy_20
+  - first:
+      213: 8041471297863769868
+    second: HeadNeckDestroy_21
+  - first:
+      213: -696845113906641454
+    second: HeadNeckDestroy_22
+  - first:
+      213: -8227750375244640330
+    second: HeadNeckDestroy_23
+  - first:
+      213: -5291156861343863725
+    second: HeadNeckDestroy_24
+  - first:
+      213: 4576945801586029714
+    second: HeadNeckDestroy_25
+  - first:
+      213: -7203813180544424291
+    second: HeadNeckDestroy_0
+  - first:
+      213: 3588773505857801103
+    second: HeadNeckDestroy_1
+  - first:
+      213: 5142969690392212624
+    second: HeadNeckDestroy_2
+  - first:
+      213: -5192182537193767363
+    second: HeadNeckDestroy_3
+  - first:
+      213: 3703507937714675449
+    second: HeadNeckDestroy_4
+  - first:
+      213: -6996364883307636831
+    second: HeadNeckDestroy_5
+  - first:
+      213: 7621710042719726537
+    second: HeadNeckDestroy_6
+  - first:
+      213: 4981574154608741317
+    second: HeadNeckDestroy_7
+  - first:
+      213: -1875821442209305983
+    second: HeadNeckDestroy_8
+  - first:
+      213: 7309436584902440875
+    second: HeadNeckDestroy_9
+  - first:
+      213: 3420484395429655354
+    second: HeadNeckDestroy_10
+  - first:
+      213: 4914449208147242813
+    second: HeadNeckDestroy_11
+  - first:
+      213: 884050657586077178
+    second: HeadNeckDestroy_12
+  - first:
+      213: 6983585030529222802
+    second: HeadNeckDestroy_13
+  - first:
+      213: 2938671408271291439
+    second: HeadNeckDestroy_14
+  - first:
+      213: -5843495427955221477
+    second: HeadNeckDestroy_15
+  - first:
+      213: 4132609940919356258
+    second: HeadNeckDestroy_16
+  - first:
+      213: 5793764959935553701
+    second: HeadNeckDestroy_17
+  - first:
+      213: 4235725722170651569
+    second: HeadNeckDestroy_18
+  - first:
+      213: 288291851130485961
+    second: HeadNeckDestroy_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeadNeckDestroy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d966f59641ae60c90800000000000000
+      internalID: -7203813180544424291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bccfb4d72edc130800000000000000
+      internalID: 3588773505857801103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094bd6e4faf7f5740800000000000000
+      internalID: 5142969690392212624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e3495ed79a1f7b0800000000000000
+      internalID: -5192182537193767363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe925ae8d0856330800000000000000
+      internalID: 3703507937714675449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75e6bf43be7ee90800000000000000
+      internalID: -6996364883307636831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb265df6e0c5c960800000000000000
+      internalID: 7621710042719726537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb88b3dc4b122540800000000000000
+      internalID: 4981574154608741317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aad0b365eb7f5e0800000000000000
+      internalID: -1875821442209305983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 32
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7ba5fc8d5507560800000000000000
+      internalID: 7309436584902440875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33f9556f60087f20800000000000000
+      internalID: 3420484395429655354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe0565481a33440800000000000000
+      internalID: 4914449208147242813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd5ed0a367c44c00800000000000000
+      internalID: 884050657586077178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2980e6ba59daae060800000000000000
+      internalID: 6983585030529222802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f247b99731248c820800000000000000
+      internalID: 2938671408271291439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c1c125edbb7eea0800000000000000
+      internalID: -5843495427955221477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b0fb388daf95930800000000000000
+      internalID: 4132609940919356258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0601dc886976050800000000000000
+      internalID: 5793764959935553701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b377fb3a1258ca30800000000000000
+      internalID: 4235725722170651569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeadNeckDestroy_19
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb54249e7300400800000000000000
+      internalID: 288291851130485961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
