@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec1f632b262dc941ae09071dfd49d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicMixer: {fileID: -4557701776806636232, guid: 0c5cf46600533004db2f20db50973d0b,
+  musicMixer: {fileID: 24100000, guid: 0c5cf46600533004db2f20db50973d0b, type: 2}
+  musicMixerGroup: {fileID: -4557701776806636232, guid: 0c5cf46600533004db2f20db50973d0b,
     type: 2}
-  soundMixer: {fileID: 2199228006935604106, guid: 0c5cf46600533004db2f20db50973d0b,
+  soundMixerGroup: {fileID: 2199228006935604106, guid: 0c5cf46600533004db2f20db50973d0b,
     type: 2}
   gameSounds:
   - name: AppleShowUp01

@@ -7,8 +7,9 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
 
-    public AudioMixerGroup musicMixer;
-    public AudioMixerGroup soundMixer;
+    public AudioMixer musicMixer; 
+    public AudioMixerGroup musicMixerGroup;
+    public AudioMixerGroup soundMixerGroup;
 
     public Sound[] gameSounds;
     public Sound[] mainMenuSounds;
@@ -16,7 +17,6 @@ public class AudioManager : MonoBehaviour
     public bool updateMade = false;
 
     private void Awake() {
-
         if (instance == null)
             instance = this;
         else
@@ -132,16 +132,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // public void RefreshVolume(){
-    //     foreach (Sound s in gameSounds)
-    //     {
-    //         s.source.volume = s.volume;
-    //     }
-    // }
-
     private void volumeTransfer(Sound[] sounds){
         
-        Debug.Log(sounds.Length);
+        //Debug.Log(sounds.Length);
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>(); 
@@ -153,10 +146,10 @@ public class AudioManager : MonoBehaviour
             s.source.loop = s.loop;
 
             if(s.name == "MainMenuBackgroundSound" || s.name.Contains("GameBackgroundSound")){
-                s.source.outputAudioMixerGroup = musicMixer;
+                s.source.outputAudioMixerGroup = musicMixerGroup;
             }
             else{
-                s.source.outputAudioMixerGroup = soundMixer;
+                s.source.outputAudioMixerGroup = soundMixerGroup;
             }
         }
     }

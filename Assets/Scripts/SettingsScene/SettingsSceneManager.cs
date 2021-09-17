@@ -7,10 +7,6 @@ using UnityEngine.UI;
 
 public class SettingsSceneManager : MonoBehaviour
 {
-    public AudioMixer musicMixer;
-
-    public string resolution; 
-
     [Space]
 
     [Header("Sliders")]
@@ -48,7 +44,6 @@ public class SettingsSceneManager : MonoBehaviour
                 }
             }
         }
-        //Debug.Log("Na starcie" + resolutions[currentResolutionIndex]);
 
         resolutionoDropdown.AddOptions(options);
         resolutionoDropdown.value = resolutions.Length - 1 - currentResolutionIndex;
@@ -67,25 +62,6 @@ public class SettingsSceneManager : MonoBehaviour
         PlayButtonSound();
         LoadSettings();
         SceneManager.LoadScene(2);
-    }
-
-
-    public void SetMusicVolume(float musicVolume){
-        if(musicVolume > 0){
-            musicMixer.SetFloat("MusicVolume", musicVolume/(5/3.0f)- 40);
-        }
-        else{
-            musicMixer.SetFloat("MusicVolume", -80);
-        }
-    }
-
-    public void SetVoiceVolume(float voiceVolume){
-        if(voiceVolume > 0){
-            musicMixer.SetFloat("VoiceVolume", voiceVolume/(5/3.0f)- 40);
-        }
-        else{
-            musicMixer.SetFloat("VoiceVolume", -80);
-        }
     }
 
     public void SetBloomPower(float bloomPower){
@@ -116,21 +92,9 @@ public class SettingsSceneManager : MonoBehaviour
 
         // Load music volume
         musicSlider.GetComponent<Slider>().value = data.musicVolume;
-        if(data.musicVolume > 0){
-            musicMixer.SetFloat("MusicVolume", data.musicVolume/(5/3.0f)- 40);
-        }
-        else{
-            musicMixer.SetFloat("MusicVolume", -80);
-        }
 
         // Load voice volume
         voiceSlider.GetComponent<Slider>().value = data.voiceVolume;
-        if(data.voiceVolume > 0){
-            musicMixer.SetFloat("VoiceVolume", data.voiceVolume/(5/3.0f)- 40);
-        }
-        else{
-            musicMixer.SetFloat("VoiceVolume", -80);
-        }
 
         // Load bloom power
         bloomSlider.GetComponent<Slider>().value = data.bloomPower;

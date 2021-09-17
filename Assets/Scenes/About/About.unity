@@ -248,6 +248,7 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
+  m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
@@ -666,7 +667,7 @@ PrefabInstance:
     - target: {fileID: 8384085152960115715, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8384085153020523792, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
@@ -686,7 +687,7 @@ PrefabInstance:
     - target: {fileID: 8384085153072522354, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8384085153257978290, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
