@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using DiffLevel;
@@ -29,7 +29,7 @@ public static class PorgressSaveSystem{
             return data;
         }
         else{
-            Debug.LogError("Save file not found in " + path);
+            Debug.LogWarning("Save file not found in " + path);
             
             InitProgressData();
             ProgressData data = LoadProgressData();
