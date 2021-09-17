@@ -21,7 +21,7 @@ public class LevelsPadlock : MonoBehaviour
 
     public void PadlockLevels(){
         //progressData = FindObjectOfType<CampaignSceneManager>().progressData;
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
 
         switch(progressData.difficultyLevel){
             case "Easy":

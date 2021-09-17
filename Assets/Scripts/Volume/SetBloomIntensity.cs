@@ -26,12 +26,10 @@ public class SetBloomIntensity : MonoBehaviour
 
     public void SetBloom(float bloomPower = -1){
         if(bloomPower == -1){
-            // /Debug.Log("ABCD:         "+ data.bloomPower);
             bloom.intensity.value = data.bloomPower * 1/100 * baseIntensity;
         }
         else{
             bloom.intensity.value = bloomPower * 1/100 * baseIntensity;
         }
-        //bloom.intensity.value = bloomPower * 1/100 * baseIntensity;
     }
 }

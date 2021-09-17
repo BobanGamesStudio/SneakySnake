@@ -47,7 +47,7 @@ public class ResetProgress : MonoBehaviour
     }
 
     public void ResetEasy(){
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
         progressData.levelsUnlocked[0] = 1;
 
         progressData.deathsNumberEasy = new int[12];
@@ -58,7 +58,7 @@ public class ResetProgress : MonoBehaviour
     }
 
     public void ResetMedium(){
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
         progressData.levelsUnlocked[1] = 1;
 
         progressData.deathsNumberMedium = new int[12];
@@ -69,7 +69,7 @@ public class ResetProgress : MonoBehaviour
     }
 
     public void ResetHard(){
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
         progressData.levelsUnlocked[2] = 1;
 
         progressData.deathsNumberHard = new int[12];
@@ -82,7 +82,7 @@ public class ResetProgress : MonoBehaviour
     public void ResetAll(){
         FindObjectOfType<CampaignSceneManager>().PlayButtonSound();
         
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
         progressData.levelsUnlocked = new int[3]{1, 1, 1};
         
         progressData.deathsNumberEasy = new int[12];
@@ -99,7 +99,7 @@ public class ResetProgress : MonoBehaviour
 
     public void DataSave(){
         Debug.Log(progressData.difficultyLevel);
-        SaveSystem.SaveProgressData(progressData);
+        PorgressSaveSystem.SaveProgressData(progressData);
         FindObjectOfType<LevelsPadlock>().PadlockLevels();
         ResetCompletedPanelOpen();
     }

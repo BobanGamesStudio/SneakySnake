@@ -141,7 +141,7 @@ public class AudioManager : MonoBehaviour
 
     private void volumeTransfer(Sound[] sounds){
         
-        Debug.Log(sounds.Length);
+        //Debug.Log(sounds.Length);
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>(); 

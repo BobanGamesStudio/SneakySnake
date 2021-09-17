@@ -20,7 +20,9 @@ public static class SettingsSaveSystem{
     }
 
     public static SettingsData LoadSettingsData(){
+        
         string path = Application.persistentDataPath + "/settings.ss";
+        
         if(File.Exists(path)){
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
@@ -33,8 +35,26 @@ public static class SettingsSaveSystem{
             return data;
         }
         else{
-            Debug.LogError("Save file(Settings) not found in " + path);
-            return null;
+            Debug.LogWarning("Save file(Settings) not found in " + path);
+
+            InitSettingsData();
+            SettingsData data = LoadSettingsData();
+
+            return data;
         }
     }
+    
+    public static void InitSettingsData(){
+        BinaryFormatter formatter = new BinaryFormatter();
+        string path = Application.persistentDataPath + "/settings.ss";
+        FileStream stream = new FileStream(path, FileMode.Create);
+
+        SettingsData data = new SettingsData(musicVolumeI: 100, voiceVolumeI: 100, bloomPowerI: 50, qualityIndexI: 3);
+
+        formatter.Serialize(stream, data);
+        
+        stream.Close();
+
+        Debug.Log("Data saved");
+    }   
 }

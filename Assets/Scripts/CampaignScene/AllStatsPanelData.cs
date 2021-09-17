@@ -13,13 +13,13 @@ public class AllStatsPanelData : MonoBehaviour
     private int sum;
 
     private void Awake() {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
     }
 
     // Update is called once per frame
     void Update()
     {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = PorgressSaveSystem.LoadProgressData();
 
         sum = 0;
 

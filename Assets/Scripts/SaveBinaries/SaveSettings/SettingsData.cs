@@ -25,6 +25,19 @@ public class SettingsData{
 
         resolutionWidth = Screen.currentResolution.width;
         resolutionHeight = Screen.currentResolution.height;
-        Debug.Log("settings data " + resolutionWidth + "   " + resolutionHeight);
+        //Debug.Log("settings data " + resolutionWidth + "   " + resolutionHeight);
+    }
+
+    public SettingsData (float musicVolumeI, float voiceVolumeI, float bloomPowerI, int qualityIndexI){
+        musicVolume = musicVolumeI;
+        voiceVolume = voiceVolumeI;
+
+        bloomPower = bloomPowerI;
+
+        qualityIndex = qualityIndexI;
+
+        resolutionWidth = Screen.currentResolution.width;
+        resolutionHeight = Screen.currentResolution.height;
+        //Debug.Log("settings data " + resolutionWidth + "   " + resolutionHeight);
     }
 }
