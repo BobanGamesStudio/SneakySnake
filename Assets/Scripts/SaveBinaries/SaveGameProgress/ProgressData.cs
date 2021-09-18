@@ -28,4 +28,14 @@ public class ProgressData{
             deathsNumberHard[j] = campaignData.deathsNumberHard[j];
         }
     }
+
+    public ProgressData (){
+        difficultyLevel = "Easy";
+
+        levelsUnlocked = new int[3]{1, 1, 1};
+
+        deathsNumberEasy = new int[12]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        deathsNumberMedium = new int[12]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        deathsNumberHard = new int[12]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    }
 }

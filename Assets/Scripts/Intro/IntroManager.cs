@@ -7,6 +7,7 @@ public class IntroManager : MonoBehaviour
 {
     private void Start() {
         SettingsData data = SettingsSaveSystem.LoadSettingsData();
+        
         Screen.SetResolution(data.resolutionWidth, data.resolutionHeight, Screen.fullScreen);
 
         GetComponent<ChangeVolume>().SetMusicVolume(data.musicVolume);

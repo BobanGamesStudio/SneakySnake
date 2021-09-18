@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine.UI;
-
+using System.Linq;
 
 public class SettingsSceneManager : MonoBehaviour
 {
@@ -21,34 +21,11 @@ public class SettingsSceneManager : MonoBehaviour
 
     Resolution[] resolutions;
 
+    public int currentWidth;
+    public int currentHeight;
+
     private void Start() {
-        
         LoadSettings();
-
-        resolutions = Screen.resolutions; 
-        resolutionoDropdown.ClearOptions();
-        List<string> options = new List<string>();
-
-        int currentResolutionIndex = 0;
-        for(int i = resolutions.Length-1; i >= 0; i--){
-            if(resolutions[i].width > 800){
-                string option = resolutions[i].width + " x " + resolutions[i].height;
-                if(!options.Contains(option)){
-                    options.Add(option);
-                }
-
-                if (resolutions[i].width == Screen.currentResolution.width &&
-                    resolutions[i].height == Screen.currentResolution.height){
-                    
-                    currentResolutionIndex = i;
-                }
-            }
-        }
-
-        resolutionoDropdown.AddOptions(options);
-        resolutionoDropdown.value = resolutions.Length - 1 - currentResolutionIndex;
-        
-        resolutionoDropdown.RefreshShownValue();
     }
 
     // Update is called once per frame
@@ -75,7 +52,15 @@ public class SettingsSceneManager : MonoBehaviour
     public void SetResolution(int resolutionIndex){
         Resolution resolution = resolutions[resolutions.Length - 1 - resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
-        Debug.Log("Set resolution " + resolution.width + "   " + resolution.height);
+
+        currentWidth = resolution.width;
+        currentHeight = resolution.height;
+
+        // Debug.Log(resolutions.Length);
+        // for(int i=0; i<resolutions.Length;i++){
+        //     Debug.Log("i:  " + i + "  WIDTH: " + resolutions[i].width + "    HEIGHT: " + resolutions[i].height + "    refresh   " + resolutions[i].refreshRate);
+        // }
+        // Debug.Log("Set resolution " + resolution.width + "   " + resolution.height + "    index:   " + resolutionIndex);
     }
 
     public void PlayButtonSound(){
@@ -85,6 +70,38 @@ public class SettingsSceneManager : MonoBehaviour
 
     public void SaveSettings(){
         SettingsSaveSystem.SaveSettingsData(this);
+    }
+    
+    public void SetResolutionDropdown(SettingsData data){
+        //resolutions = Screen.resolutions; 
+        resolutions = Screen.resolutions.Select(resolution => new Resolution { width = resolution.width, height = resolution.height }).Distinct().ToArray();
+        
+        resolutionoDropdown.ClearOptions();
+        List<string> options = new List<string>();
+
+        int currentResolutionIndex = 0;
+        for(int i = resolutions.Length-1; i >= 0; i--){
+            if(resolutions[i].width > 800){
+                string option = resolutions[i].width + " x " + resolutions[i].height;
+                if(!options.Contains(option)){
+                    options.Add(option);
+                }
+
+                // if (resolutions[i].width == Screen.currentResolution.width &&
+                //     resolutions[i].height == Screen.currentResolution.height){
+                if (resolutions[i].width == data.resolutionWidth &&
+                    resolutions[i].height == data.resolutionHeight){
+
+                    currentResolutionIndex = i;
+
+                    currentWidth = data.resolutionWidth;
+                    currentHeight = data.resolutionHeight;
+                }
+            }
+        }
+        resolutionoDropdown.AddOptions(options);
+        resolutionoDropdown.value = resolutions.Length - 1 - currentResolutionIndex;
+        resolutionoDropdown.RefreshShownValue();
     }
 
     public void LoadSettings(){
@@ -99,7 +116,13 @@ public class SettingsSceneManager : MonoBehaviour
         // Load bloom power
         bloomSlider.GetComponent<Slider>().value = data.bloomPower;
 
+        // Load quality
         qualityDropdown.GetComponent<Dropdown>().value = data.qualityIndex;
-        Screen.SetResolution(data.resolutionWidth, data.resolutionHeight, Screen.fullScreen);
+
+        // Load resolution
+        SetResolutionDropdown(data);
+
+
+        //Screen.SetResolution(data.resolutionWidth, data.resolutionHeight, Screen.fullScreen);
     }
 }

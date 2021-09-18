@@ -13,7 +13,7 @@ public class LevelDifficulty : MonoBehaviour
     CampaignDataClass difLvlClassObj = new CampaignDataClass();
 
     private void Awake() {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = ProgressSaveSystem.LoadProgressData();
         
         difficultyLevel = difLvlClassObj.GiveDiffLvlFromStr(progressData.difficultyLevel);
     }

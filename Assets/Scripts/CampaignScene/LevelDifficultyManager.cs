@@ -17,7 +17,7 @@ public class LevelDifficultyManager : MonoBehaviour
     public ProgressData progressData;
 
     public void Start() {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = ProgressSaveSystem.LoadProgressData();
         
         switch(progressData.difficultyLevel){
             case "Easy":
@@ -53,11 +53,11 @@ public class LevelDifficultyManager : MonoBehaviour
         if(!easyPressed){
             FindObjectOfType<CampaignSceneManager>().PlayButtonSound();
 
-            progressData = SaveSystem.LoadProgressData();
+            progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Easy";
             //Debug.Log(progressData.difficultyLevel);
-            //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Easy, progressData.levelsUnlocked);
-            SaveSystem.SaveProgressData(progressData);
+            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Easy, progressData.levelsUnlocked);
+            ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = true;
             mediumPressed = false;
             hardPressed = false;
@@ -70,10 +70,10 @@ public class LevelDifficultyManager : MonoBehaviour
         if(!mediumPressed){
             FindObjectOfType<CampaignSceneManager>().PlayButtonSound();
 
-            progressData = SaveSystem.LoadProgressData();
+            progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Medium";
-            //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Medium, progressData.levelsUnlocked);
-            SaveSystem.SaveProgressData(progressData);
+            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Medium, progressData.levelsUnlocked);
+            ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = false;
             mediumPressed = true;
             hardPressed = false;
@@ -86,10 +86,10 @@ public class LevelDifficultyManager : MonoBehaviour
         if(!hardPressed){
             FindObjectOfType<CampaignSceneManager>().PlayButtonSound();
             
-            progressData = SaveSystem.LoadProgressData();
+            progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Hard";
-            //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Hard, progressData.levelsUnlocked);
-            SaveSystem.SaveProgressData(progressData);
+            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Hard, progressData.levelsUnlocked);
+            ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = false;
             mediumPressed = false;
             hardPressed = true;

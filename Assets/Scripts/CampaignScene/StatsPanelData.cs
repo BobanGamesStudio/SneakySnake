@@ -13,13 +13,13 @@ public class StatsPanelData : MonoBehaviour
     public ProgressData progressData;
     
     private void Awake() {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = ProgressSaveSystem.LoadProgressData();
     }
 
     // Update is called once per frame
     void Update()
     {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = ProgressSaveSystem.LoadProgressData();
 
         levelNumText.text = levelNum.ToString();
 

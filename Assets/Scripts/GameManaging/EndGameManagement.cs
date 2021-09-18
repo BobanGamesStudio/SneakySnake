@@ -17,7 +17,7 @@ public class EndGameManagement : MonoBehaviour
     public ProgressData progressData;
 
     private void Awake() {
-        progressData = SaveSystem.LoadProgressData();
+        progressData = ProgressSaveSystem.LoadProgressData();
     }
 
     public void EndGameDeath()
@@ -86,19 +86,19 @@ public class EndGameManagement : MonoBehaviour
             case "Easy":
                 if(progressData.levelsUnlocked[0] == SceneManager.GetActiveScene().buildIndex - 6){//Check if that's the highest lvl unlocked
                     progressData.deathsNumberEasy[SceneManager.GetActiveScene().buildIndex - 7] += 1;
-                    SaveSystem.SaveProgressData(progressData);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
             case "Medium":
                 if(progressData.levelsUnlocked[1] == SceneManager.GetActiveScene().buildIndex - 6){//Check if that's the highest lvl unlocked
                     progressData.deathsNumberMedium[SceneManager.GetActiveScene().buildIndex - 7] += 1;
-                    SaveSystem.SaveProgressData(progressData);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
             case "Hard":
                 if(progressData.levelsUnlocked[2] == SceneManager.GetActiveScene().buildIndex - 6){//Check if that's the highest lvl unlocked
                     progressData.deathsNumberHard[SceneManager.GetActiveScene().buildIndex - 7] += 1;
-                    SaveSystem.SaveProgressData(progressData);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
         }
@@ -115,22 +115,22 @@ public class EndGameManagement : MonoBehaviour
                     progressData.levelsUnlocked[0] = SceneManager.GetActiveScene().buildIndex - 5;
                     Debug.Log(progressData.levelsUnlocked[0]);
                     Debug.Log(progressData.difficultyLevel);
-                    //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Easy, progressData.levelsUnlocked);
-                    SaveSystem.SaveProgressData(progressData);
+                    //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Easy, progressData.levelsUnlocked);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
             case "Medium":
                 if(progressData.levelsUnlocked[1] < SceneManager.GetActiveScene().buildIndex - 5){
                     progressData.levelsUnlocked[1] = SceneManager.GetActiveScene().buildIndex - 5;
-                    //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Medium, progressData.levelsUnlocked);
-                    SaveSystem.SaveProgressData(progressData);
+                    //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Medium, progressData.levelsUnlocked);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
             case "Hard":
                 if(progressData.levelsUnlocked[2] < SceneManager.GetActiveScene().buildIndex - 5){
                     progressData.levelsUnlocked[2] = SceneManager.GetActiveScene().buildIndex - 5;
-                    //SaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Hard, progressData.levelsUnlocked);
-                    SaveSystem.SaveProgressData(progressData);
+                    //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Hard, progressData.levelsUnlocked);
+                    ProgressSaveSystem.SaveProgressData(progressData);
                 }
                 break;
         }
