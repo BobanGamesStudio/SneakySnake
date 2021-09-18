@@ -37,7 +37,7 @@ public class SettingsSceneManager : MonoBehaviour
 
     public void BackToMenu(){
         PlayButtonSound();
-        LoadSettings();
+        //LoadSettings();
         SceneManager.LoadScene(2);
     }
 
@@ -55,12 +55,6 @@ public class SettingsSceneManager : MonoBehaviour
 
         currentWidth = resolution.width;
         currentHeight = resolution.height;
-
-        // Debug.Log(resolutions.Length);
-        // for(int i=0; i<resolutions.Length;i++){
-        //     Debug.Log("i:  " + i + "  WIDTH: " + resolutions[i].width + "    HEIGHT: " + resolutions[i].height + "    refresh   " + resolutions[i].refreshRate);
-        // }
-        // Debug.Log("Set resolution " + resolution.width + "   " + resolution.height + "    index:   " + resolutionIndex);
     }
 
     public void PlayButtonSound(){
@@ -69,6 +63,7 @@ public class SettingsSceneManager : MonoBehaviour
     }
 
     public void SaveSettings(){
+        PlayButtonSound();
         SettingsSaveSystem.SaveSettingsData(this);
     }
     
