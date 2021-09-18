@@ -29,7 +29,7 @@ public class SnakeGrow : MonoBehaviour
         snakeParts[snakeParts.Count - 1].GetComponent<Animator>().enabled = false;  
     }
 
-    public void ShrinkTheSnake(){ // Increasing snake by one mid part at the end
+    public void ShrinkTheSnake(){ // Decreasing snake by one mid part at the end
         snakeParts = GetComponent<SnakeProperties>().snakeParts;
 
         if(snakeParts.Count > 3)
@@ -38,7 +38,7 @@ public class SnakeGrow : MonoBehaviour
             Destroy(snakeParts[snakeParts.Count-2]);
             snakeParts.RemoveAt(snakeParts.Count-2);
             snakeParts[snakeParts.Count - 1].GetComponent<SnakePartProperties>().direction = snakeParts[snakeParts.Count-2].GetComponent<SnakePartProperties>().direction;
-            
+            GetComponent<SnakeMovement>().MakeRotation(snakeParts[snakeParts.Count - 1], snakeParts[snakeParts.Count-2].GetComponent<SnakePartProperties>().direction);
         }
     }
 }
