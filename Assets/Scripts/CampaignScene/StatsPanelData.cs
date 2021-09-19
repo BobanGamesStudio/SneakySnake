@@ -16,8 +16,7 @@ public class StatsPanelData : MonoBehaviour
         progressData = ProgressSaveSystem.LoadProgressData();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PanelUpdate()
     {
         progressData = ProgressSaveSystem.LoadProgressData();
 

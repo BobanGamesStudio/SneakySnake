@@ -14,10 +14,13 @@ public class LevelDifficultyManager : MonoBehaviour
     private bool mediumPressed = false;
     private bool hardPressed = false;
 
+    public GameObject allStatsPanelData;
+
     public ProgressData progressData;
 
     public void Start() {
         progressData = ProgressSaveSystem.LoadProgressData();
+        allStatsPanelData.GetComponent<AllStatsPanelData>().UpdateDifficultyLevel();
         
         switch(progressData.difficultyLevel){
             case "Easy":
@@ -63,6 +66,7 @@ public class LevelDifficultyManager : MonoBehaviour
             hardPressed = false;
             
             FindObjectOfType<LevelsPadlock>().PadlockLevels();
+            allStatsPanelData.GetComponent<AllStatsPanelData>().UpdateDifficultyLevel();
         }
     }
 
@@ -79,6 +83,7 @@ public class LevelDifficultyManager : MonoBehaviour
             hardPressed = false;
 
             FindObjectOfType<LevelsPadlock>().PadlockLevels();
+            allStatsPanelData.GetComponent<AllStatsPanelData>().UpdateDifficultyLevel();
         }
     }
 
@@ -95,6 +100,7 @@ public class LevelDifficultyManager : MonoBehaviour
             hardPressed = true;
 
             FindObjectOfType<LevelsPadlock>().PadlockLevels();
+            allStatsPanelData.GetComponent<AllStatsPanelData>().UpdateDifficultyLevel();
         }
     }
 }

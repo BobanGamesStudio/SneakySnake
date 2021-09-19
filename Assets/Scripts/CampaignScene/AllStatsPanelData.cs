@@ -15,10 +15,8 @@ public class AllStatsPanelData : MonoBehaviour
     private void Awake() {
         progressData = ProgressSaveSystem.LoadProgressData();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
+    
+    public void UpdateDifficultyLevel(){
         progressData = ProgressSaveSystem.LoadProgressData();
 
         sum = 0;

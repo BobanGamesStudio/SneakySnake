@@ -15,6 +15,7 @@
             //GameObject.Find("LeftStatsBackgrund").SetActive(true);
             leftStatsAllBackground.SetActive(false);
             leftStatsBackground.GetComponent<StatsPanelData>().levelNum = levelNum;
+            leftStatsBackground.GetComponent<StatsPanelData>().PanelUpdate();
             leftStatsBackground.SetActive(true);
         }
 
