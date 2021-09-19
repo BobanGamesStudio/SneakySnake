@@ -16,6 +16,8 @@ public class AudioManager : MonoBehaviour
 
     public bool updateMade = false;
 
+    Sound[] IngameBackgroundSounds; 
+
     private void Awake() {
         if (instance == null)
             instance = this;
@@ -28,6 +30,8 @@ public class AudioManager : MonoBehaviour
         
         volumeTransfer(gameSounds);
         volumeTransfer(mainMenuSounds);
+
+        IngameBackgroundSounds = Array.FindAll(gameSounds, sound => sound.name.Contains("GameBackgroundSound") );
     }
 
     public void Play(string name, int sceneNum)
@@ -52,7 +56,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
         s.source.Play();
-        
     }
 
     public void PlaySoundContaining(string containedString, int sceneNum){
@@ -71,7 +74,7 @@ public class AudioManager : MonoBehaviour
                 break;
         }
         int randomNum = UnityEngine.Random.Range(0, sounds.Length);
-
+        
         if(sounds[randomNum].source.isPlaying && sounds.Length > 1){
             int newRandomNum = 0;
             while(newRandomNum == randomNum){
@@ -88,25 +91,50 @@ public class AudioManager : MonoBehaviour
     }
     
     void OnSceneLoaded(Scene scene, LoadSceneMode mode){
-        Sound soundBackground;
+        Sound[] soundBackground;
         switch(whichSceneAreYou(scene.buildIndex)){
             case "mainMenu":
-                soundBackground = Array.Find(mainMenuSounds, sound => sound.name == "MainMenuBackgroundSound");
-                if(!soundBackground.source.isPlaying)
+                soundBackground = Array.FindAll(mainMenuSounds, sound => sound.name == "MainMenuBackgroundSound");
+                if(!soundBackground[0].source.isPlaying)
                     Play("MainMenuBackgroundSound", scene.buildIndex);
                 disableSounds(gameSounds);
                 break;
             case "game":
-                soundBackground = Array.Find(gameSounds, sound => sound.name == "GameBackgroundSound01");
-                Debug.Log(gameSounds.Length);
-                if(!soundBackground.source.isPlaying)
-                    Play("GameBackgroundSound01", scene.buildIndex);
+                soundBackground = Array.FindAll(gameSounds, sound => sound.name.Contains("GameBackgroundSound") );
+                if(!CheckIfSoundsArePlaying(soundBackground))
+                    PlaySoundContaining("GameBackgroundSound", scene.buildIndex);
+                InvokeRepeating("LoopBackgroundSoundsInGame", 2.0f, 2.0f);
                 disableSounds(mainMenuSounds);
                 break;
             default:
                 Debug.Log("Wrong scene type in Audio Manager");
                 break;
         }
+    }
+
+    void LoopBackgroundSoundsInGame(){
+        Debug.Log("INVOKED ahhahahahahaha ");
+        if(!CheckIfSoundsArePlaying(IngameBackgroundSounds)){
+            Scene scene = SceneManager.GetActiveScene();
+
+            switch(whichSceneAreYou(scene.buildIndex)){
+                case "mainMenu":
+                    CancelInvoke();
+                    break;
+                case "game":
+                    PlaySoundContaining("GameBackgroundSound", scene.buildIndex);
+                    break;
+            }
+        }
+    }
+
+    bool CheckIfSoundsArePlaying(Sound[] sounds){
+        for(int i = 0; i < sounds.Length; i++){
+            if(sounds[i].source.isPlaying){
+                return true;
+            }
+        }
+        return false;
     }
 
     public void disableSounds(Sound[] sounds){

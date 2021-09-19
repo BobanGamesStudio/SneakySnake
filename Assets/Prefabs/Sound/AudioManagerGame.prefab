@@ -192,7 +192,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 6ba92c8a1a47c494b873cd9bf99a46f3, type: 3}
     volume: 1
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: AppleShowUp01
     clip: {fileID: 8300000, guid: 0b87126e2f14be240a811e486e137ebf, type: 3}
