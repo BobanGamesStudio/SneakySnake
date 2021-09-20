@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -58,8 +58,7 @@ public class LevelDifficultyManager : MonoBehaviour
 
             progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Easy";
-            //Debug.Log(progressData.difficultyLevel);
-            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Easy, progressData.levelsUnlocked);
+            
             ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = true;
             mediumPressed = false;
@@ -76,7 +75,7 @@ public class LevelDifficultyManager : MonoBehaviour
 
             progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Medium";
-            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Medium, progressData.levelsUnlocked);
+            
             ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = false;
             mediumPressed = true;
@@ -93,7 +92,7 @@ public class LevelDifficultyManager : MonoBehaviour
             
             progressData = ProgressSaveSystem.LoadProgressData();
             progressData.difficultyLevel = "Hard";
-            //ProgressSaveSystem.SaveProgressData(CampaignDataClass.DifficultyLevel.Hard, progressData.levelsUnlocked);
+            
             ProgressSaveSystem.SaveProgressData(progressData);
             easyPressed = false;
             mediumPressed = false;

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
         }
     }
+    
     public void PlayButtonSound(){
         if(FindObjectOfType<AudioManager>() != null)
             FindObjectOfType<AudioManager>().PlaySoundContaining("ButtonPressed", SceneManager.GetActiveScene().buildIndex);
