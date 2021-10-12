@@ -16,6 +16,6 @@ public class IntroEnd : MonoBehaviour {
     
     void CheckOver(UnityEngine.Video.VideoPlayer vp)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene("MainMenuAnimation");
     }
 }

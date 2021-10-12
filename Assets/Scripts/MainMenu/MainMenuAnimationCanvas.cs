@@ -27,12 +27,12 @@ public class MainMenuAnimationCanvas : MonoBehaviour
     void Update()
     {
         if(Time.timeSinceLevelLoad > 10.5f){
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            SceneManager.LoadScene("MainMenu");
         }
         // We can skip animation with some actions
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0) )
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

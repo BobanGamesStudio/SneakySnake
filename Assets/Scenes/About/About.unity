@@ -529,6 +529,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: OpenSocialMediaURL, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8384085152764581011, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384085152820228766, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 449
+      objectReference: {fileID: 0}
     - target: {fileID: 8384085152870689920, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
       propertyPath: m_Camera
@@ -689,6 +699,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8384085153150974894, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384085153257978288, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8384085153257978290, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -733,6 +753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: 'My ex-girlfriend:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384085154010809835, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Sounds (amazing!): DJ Donio'
       objectReference: {fileID: 0}
     - target: {fileID: 8384085154045998525, guid: 42c71dd16f14f3f4db2ae8b2f22c09fa,
         type: 3}

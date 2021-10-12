@@ -7,22 +7,22 @@ public class ButtonsManager : MonoBehaviour
 {
     public void CampaignPressed(){
         PlayButtonSound();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Campaign");
     }
 
-    public void CustomPressed(){
-        PlayButtonSound();
-        SceneManager.LoadScene(4);
-    }
+    // public void CustomPressed(){
+    //     PlayButtonSound();
+    //     SceneManager.LoadScene("Custom");
+    // }
 
     public void SettingsPressed(){
         PlayButtonSound();
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Settings");
     }
 
     public void AboutPressed(){
         PlayButtonSound();
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene("About");
     }
 
     public void ExitPressed(){

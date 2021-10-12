@@ -17,7 +17,7 @@ public class CampaignSceneManager : MonoBehaviour
 
     public void BackToMenu(){
         PlayButtonSound();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void PlayButtonSound(){

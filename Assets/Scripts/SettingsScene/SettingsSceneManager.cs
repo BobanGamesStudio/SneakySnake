@@ -31,14 +31,14 @@ public class SettingsSceneManager : MonoBehaviour
     // Update is called once per frame
     void Update(){
         if(Input.GetKeyDown(KeyCode.Escape)){
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
     public void BackToMenu(){
         PlayButtonSound();
         //LoadSettings();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void SetBloomPower(float bloomPower){

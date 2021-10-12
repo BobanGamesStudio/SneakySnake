@@ -39,7 +39,12 @@ public class GameManager : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // if((SceneManager.GetActiveScene().buildIndex + 1) < 10){
+        //     SceneManager.LoadScene("Level_0" + (SceneManager.GetActiveScene().buildIndex + 1));
+        // }else{
+        //     SceneManager.LoadScene("Level_" + (SceneManager.GetActiveScene().buildIndex + 1));
+        // }
     }
 
     void Restart()
@@ -50,7 +55,7 @@ public class GameManager : MonoBehaviour
     public void GoBackToCampaignScreen(){
         PlayButtonSound();
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Campaign");
         Time.timeScale = 1;
     }
 
